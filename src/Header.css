@@ -1,0 +1,28 @@
+@media screen and (max-width:600px){
+    .number{
+        display: none;
+    }
+    /* .fonts{
+        display: flex;
+        justify-content: space-between;
+    } */
+}
+@media screen and (max-width:1400px){
+    .icons{
+        width: 10rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+.fonts{
+    display: flex;
+    justify-content: space-between;
+}
+.number{
+    margin-top: 0;
+    margin-left: 10px;
+    font-size: large;
+}
+.logo{
+    font-size: large;
+}

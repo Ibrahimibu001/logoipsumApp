@@ -1,0 +1,33 @@
+@media screen and (max-width:600px){
+    .navbar{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1400px){
+.navbar{
+    width: 20rem;
+}
+.navList{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.iconic{
+    width: 10rem;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+}
+
+.homebar{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.navList{
+    list-style-type: none;
+}

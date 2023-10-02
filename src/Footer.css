@@ -1,0 +1,99 @@
+.footer{
+    background-color: #fc6b3f;
+    margin-top: 50px;
+}
+@media (max-width:600px) {
+.company{
+    text-align: center;
+}
+.company>h4{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: larger;
+}
+.company > p{
+    color: white;
+    margin-bottom: 20px;
+    font-size: small;
+}
+.socialMedia{
+    text-align: center;
+}
+.socialMedia > p{
+    color: white;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+}
+.socialMedia > ul{
+    list-style-type: none;
+    color: white;
+    font-size: small;
+}
+address{
+    margin-top: 20px;
+    text-align: center;
+}
+address > p{
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+}
+address > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+}
+
+@media (min-width:602px){
+    .footer{
+        display: flex;
+        justify-content: space-around;
+        height: 40vh;
+
+    }
+    .company{
+        color: white;
+        width: 33.33%;
+        margin-top: 60px;
+    }
+    .company>h4{
+        margin-bottom: 20px;
+        margin-left: 10px;
+        font-size: larger;
+    }
+    .company > p{
+        margin-bottom: 20px;
+        font-size: small;
+    }
+    .socialMedia{
+        color: white;
+        margin-top: 60px;
+        width: 33.33%;
+    }
+    .socialMedia > p{
+        margin-bottom: 10px;
+        font-size: larger;
+        font-weight: 500;
+    }
+    .socialMedia > ul{
+        list-style-type: none;
+        font-size: small;
+    }
+    address{
+        color: white;
+        margin-top: 60px;
+        width: 33.33%;
+    }
+    address > p{
+        font-size: larger;
+        font-weight: 500;
+    }
+    address > a{
+        color: white;
+        text-decoration: none;
+        display: block;
+    }
+} 

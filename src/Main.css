@@ -1,0 +1,84 @@
+.main{
+    width: 100%;
+    height: 100%;
+}
+.Button{
+    background-color: #fc6b3f;
+    color: white;
+    font-size: large;
+    border: none;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+.slider{
+    background-color: #9e9e9e;
+    margin-top: 10px;
+}
+@media screen and (max-width:600px){
+    .title > h1{
+        text-align: center;
+    }
+    .title > p{
+        text-align: center;
+    }
+    .Button{
+        width: 100%;
+    }
+    .slider{
+        width: 100vw;
+        height: 60vh;
+    }
+    .dresses{
+        display: flex;
+        
+    }
+    .collections{
+        width: 100vw;
+        height: 20vh;
+        margin: 2px;
+        background-color: #9e9e9e;
+        margin-top: 5px;
+    }
+    .collections1{
+        display: none;
+    }
+}
+
+@media screen and (min-width:601px){
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.title{
+    width: 20vw;
+    margin: auto;
+}
+.title > p{
+    margin-top: 10px;
+}
+.Button{
+    width: 5rem;
+}
+.slider{
+    width: 50vw;
+    height: 50vh;
+    margin-right: 10px;
+    background-color: #9e9e9e;
+}
+.dresses{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 10px;  
+}
+.collections, .collections1{
+    width: 20vw;
+    height: 50vh;
+    margin: 2px;
+    background-color: #9e9e9e;
+}
+}
