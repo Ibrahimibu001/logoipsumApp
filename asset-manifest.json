@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/logoipsumApp/static/css/main.b4d3ce91.css",
+    "main.js": "/logoipsumApp/static/js/main.0f166729.js",
+    "index.html": "/logoipsumApp/index.html",
+    "main.b4d3ce91.css.map": "/logoipsumApp/static/css/main.b4d3ce91.css.map",
+    "main.0f166729.js.map": "/logoipsumApp/static/js/main.0f166729.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b4d3ce91.css",
+    "static/js/main.0f166729.js"
+  ]
+}
